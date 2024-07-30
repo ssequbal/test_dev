@@ -24,7 +24,7 @@ const Hero = () => {
                     <h2 className='uppercase tracking-widest text-xs text-xenter text-blue-100 max-w-80'>
                         Dynamic 
                     </h2>
-                    <TextGenerateEffect className='' words ='Transforming concepts into Seamless experiences'></TextGenerateEffect>
+                    <TextGenerateEffect className='' words ='Hi I am Saad'></TextGenerateEffect>
                     <p>Hi I am Saad</p>
                     <a href='#about'></a>
                     <MagicButton title='Hi' position='right' icon={<FaLocationArrow/>}></MagicButton>
