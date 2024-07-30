@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output:'export',
-    ig
+    output:'export'
 };
 
 export default nextConfig;
