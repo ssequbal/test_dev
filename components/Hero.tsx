@@ -9,7 +9,7 @@ import Grid from './ui/Grid';
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className=" ">
         <div>
             <Spotlight className='-top-40 -left-10 md:-left-32 md-top-20 hscreen' fill='white'/>
             <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple'/>
@@ -19,18 +19,22 @@ const Hero = () => {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>              
 
             </div>
-            <div className='flex justify-center relative my-20 z-10'>
+            <div className='flex justify-center relative  z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                     <h2 className='uppercase tracking-widest text-xs text-xenter text-blue-100 max-w-80'>
                          
                     </h2>
-                    <TextGenerateEffect className='' words ='Welcome to Venture Camp'></TextGenerateEffect>
-                    <p> St johns first enterprenuership camp for kids</p>
+                    <br/>  
+                      <TextGenerateEffect className='' words='Welcome to Venture Camp'></TextGenerateEffect>
+                      <img src="/logo.png" width={200} alt="Venture Camp" />
+                    <br></br>
+                    <p className='justify-center text-center'> At Venture Camp, we believe that every child has the potential to be a future entrepreneur. Our summer camp is designed to ignite creativity, inspire innovation, and teach essential business skills in a fun and engaging environment. Over the course of our program, your child will learn how to turn their ideas into reality, develop teamwork and leadership skills, and gain the confidence to think like an entrepreneur.</p>
                     <br/>
-                    <a href='#about'></a>
                     <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
+                    <br></br>
+                    <TextGenerateEffect className='' words='First Draft Summer 2024'></TextGenerateEffect>
                     <FloatingNav navItems={[{name: 'string', link: 'string', icon: <FaLocationArrow/>}]}></FloatingNav>
-                    {/* <Grid></Grid> */}
+                    <Grid></Grid> 
                 </div>
             </div>
         </div>
