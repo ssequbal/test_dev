@@ -25,7 +25,7 @@ const Hero = () => {
                          
                     </h2>
                     <br/>  
-                      <TextGenerateEffect className='' words='Welcome to Venture Camp'></TextGenerateEffect>
+                      <TextGenerateEffect className='text-center' words='Welcome to Venture Camp'></TextGenerateEffect>
                       <img src="/logo.png" width={200} alt="Venture Camp" />
                     <br></br>
                     <p className='justify-center text-center'> At Venture Camp, we believe that every child has the potential to be a future entrepreneur. Our summer camp is designed to ignite creativity, inspire innovation, and teach essential business skills in a fun and engaging environment. Over the course of our program, your child will learn how to turn their ideas into reality, develop teamwork and leadership skills, and gain the confidence to think like an entrepreneur.</p>
