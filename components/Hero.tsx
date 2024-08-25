@@ -22,18 +22,19 @@ const Hero = () => {
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                     <h2 className='uppercase tracking-widest text-xs text-xenter text-blue-100 max-w-80'>
-                        Dynamic 
+                         
                     </h2>
-                    <TextGenerateEffect className='' words ='Hi I am Saad'></TextGenerateEffect>
-                    <p>Hi I am Saad</p>
+                    <TextGenerateEffect className='' words ='Welcome to Venture Camp'></TextGenerateEffect>
+                    <p> St johns first enterprenuership camp for kids</p>
+                    <br/>
                     <a href='#about'></a>
-                    <MagicButton title='Hi' position='right' icon={<FaLocationArrow/>}></MagicButton>
+                    <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
                     <FloatingNav navItems={[{name: 'string', link: 'string', icon: <FaLocationArrow/>}]}></FloatingNav>
-                    <Grid></Grid>
+                    {/* <Grid></Grid> */}
                 </div>
             </div>
         </div>
-        hero
+        
     </div>
   )
 }
