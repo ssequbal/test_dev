@@ -30,7 +30,9 @@ const Hero = () => {
                     <br></br>
                     <p className='justify-center text-center'> At Venture Camp, we believe that every child has the potential to be a future entrepreneur. Our summer camp is designed to ignite creativity, inspire innovation, and teach essential business skills in a fun and engaging environment. Over the course of our program, your child will learn how to turn their ideas into reality, develop teamwork and leadership skills, and gain the confidence to think like an entrepreneur.</p>
                     <br/>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScIGgqEJYA-3HypgIse1bjzKy01dMOnzoICdR3dj7MzgOAWcA/viewform'>
                     <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
+                    </a>
                     <br></br>
                     <TextGenerateEffect className='' words='First Draft Summer 2024'></TextGenerateEffect>
                     <FloatingNav navItems={[{name: 'string', link: 'string', icon: <FaLocationArrow/>}]}></FloatingNav>
