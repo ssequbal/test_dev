@@ -25,7 +25,7 @@ const WinnerSlider: React.FC<{ winner: Winner }> = ({ winner }) => {
     <div>
       <div className="relative w-full max-w-[800px] mx-auto">
         <h1 className='fade-in text-4xl py-10 text-center text-white z-10'>{winner.title}</h1>
-        <div className="slider-container rounded-md w-full  shadow-lg overflow-hidden border-radius-26px mt-4"> {/* Added margin-top */}
+        <div className="w-full h-auto rounded-lg shadow-lg"> {/* Added margin-top */}
           <ImageSlider
             images={slides}
             autoPlay={true}

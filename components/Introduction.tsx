@@ -15,7 +15,7 @@ function Introduction() {
               />
             </div>
             <p className="text-lg mb-6 py-5">
-              At Venture Camp, we believe that the spirit of entrepreneurship starts young. We're St. John's first summer camp dedicated to teaching kids the fundamentals of starting and running a business. Through hands-on activities, creative projects, and mentorship from experienced entrepreneurs, our campers discover the thrill of turning ideas into reality.
+              At Venture Camp, we believe that the spirit of entrepreneurship starts young. We&apos;re St. John&apos;s first summer camp dedicated to teaching kids the fundamentals of starting and running a business. Through hands-on activities, creative projects, and mentorship from experienced entrepreneurs, our campers discover the thrill of turning ideas into reality.
             </p>
             <p className="text-lg mb-6">
               Whether your child is a budding innovator or just curious about the world of business, Venture Camp offers a fun and supportive environment where they can explore their potential, learn valuable skills, and make lifelong friends.
