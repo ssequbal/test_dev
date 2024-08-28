@@ -82,33 +82,27 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "What an extraordinary experience for these students! I would have been terrified to present to this large room at that age. Some were clearly nervous but they didn't hesitate and they spoke with confidence in their ideas. 78% of the participants were girls! They were all winners but the top prize went to a duo that went over and above in effort, preparation and creativity. Amazing job to the participants, counselors and Vivienne!",
+      name: "Jacqueline Lee",
+      title: "CEO of PolyUnity Tech Inc",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Vivienne Wilkinson it was pure joy to witness the experience you have brought to life for over 50 children this summer. Think about that - 50 kids have been exposed to entrepreneurship and the concept of market validation, target customers, customer discovery, marketing, budgeting, pitching, etc and they are all between the ages of 10-15. I am certain these children will be forever inspired by their experience and will be able to trace their success back to 'that one week I went to Venture Camp'. Keep it up! ",
+      name: "Kathryn Lockhart",
+      title: "Chief Executive Officer at Propel",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Incredible to see your idea come to life Vivienne - I was blown away at the presentations and how each participant could answer questions on: market, target audience, research, pricing, value differentiation, etc. AND to pitch it to a room on top of that and they all did it so confidently. You accelerated 50 entrepreneurs in 1 week - can't wait to see what's next.",
+        name: "Johanna Brown",
+        title: "Tech Sales Strategist | Sales Advisor & Consultant | Entrepreneur",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Fatastic job Vivienne Wilkinson my daughters loved this camp!",
+      name: "Noah Zanbilowicz",
+      title: "President at ASL Innovations",
     },
   ];
   

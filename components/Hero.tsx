@@ -48,16 +48,12 @@ const Hero = () => {
 
                     <br></br>
                     <br></br>
-                    <TextGenerateEffect   className='text-4xl' words='Celebrating Winners & Awards'></TextGenerateEffect>
+                    
                     <FloatingNav navItems={[{name: 'string', link: 'string', icon: <FaLocationArrow/>}]}></FloatingNav>
                 </div>
             </div>
         </div>
-        <div className='items-center fade-in'>
-          {winners.map((winner) => (
-            <WinnerSlider key={winner.id} winner={winner} />
-          ))}
-        </div>
+
         
     </div>
   )
