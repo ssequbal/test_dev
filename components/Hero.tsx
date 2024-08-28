@@ -34,22 +34,17 @@ const Hero = () => {
                          
                     </h2>
                     <br/>  
-                      <TextGenerateEffect className='text-center text-5xl' words='Welcome to Venture Camp'></TextGenerateEffect>
+                      <TextGenerateEffect className='text-center text-6xl' words='Welcome to Venture Camp'></TextGenerateEffect>
                       <br></br>
                       <img src="/logo.png" width={200} alt="Venture Camp" className="fade-in" />
                       <br></br>
                     <br></br>
                     <p className='justify-center text-center'> </p>
-                    <p className='text-2xl justify-center text-center fade-in'> At Venture Camp, we believe that every child has the potential to be a future entrepreneur. Our summer camp is designed to ignite creativity, inspire innovation, and teach essential business skills in a fun and engaging environment. Over the course of our program, your child will learn how to turn their ideas into reality, develop teamwork and leadership skills, and gain the confidence to think like an entrepreneur.</p>
-                    <br/>
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLScIGgqEJYA-3HypgIse1bjzKy01dMOnzoICdR3dj7MzgOAWcA/viewform'>
                     <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
                     </a>
-
-                    <br></br>
-                    <br></br>
                     
-                    <FloatingNav navItems={[{name: 'string', link: 'string', icon: <FaLocationArrow/>}]}></FloatingNav>
+                    <FloatingNav navItems={[{name: 'Venture Camp', link: 'string', icon:<img src="/logo.png" alt="Venture Camp Icon" className="w-12 h-10" />}]}></FloatingNav>
                 </div>
             </div>
         </div>
