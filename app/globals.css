@@ -100,3 +100,6 @@
 .fade-in {
   animation: fadeIn 2s ease-in forwards;
 }
+.scroll-offset {
+  scroll-margin-top: 80px; 
+}
