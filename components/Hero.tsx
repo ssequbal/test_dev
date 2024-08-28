@@ -34,7 +34,7 @@ const Hero = () => {
                          
                     </h2>
                     <br/>  
-                      <TextGenerateEffect className='text-center text-7xl' words='Welcome to Venture Camp'></TextGenerateEffect>
+                      <TextGenerateEffect className='text-center text-5xl' words='Welcome to Venture Camp'></TextGenerateEffect>
                       <br></br>
                       <img src="/logo.png" width={200} alt="Venture Camp" className="fade-in" />
                       <br></br>
