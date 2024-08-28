@@ -3,7 +3,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect'
 
 function Introduction() {
     return (
-        <div className="relative flex flex-col items-center text-center p-8">
+        <div className="relative flex flex-col items-center text-center ">
           <div className="w-full max-w-3xl mx-auto">
           <TextGenerateEffect className='text-4xl'  words='Empowering the Next Generation of Entrepreneurs'></TextGenerateEffect>
             <div className="relative w-full max-w-4xl mt-8">

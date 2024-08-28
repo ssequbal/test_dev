@@ -38,13 +38,11 @@ const Hero = () => {
                       <br></br>
                       <img src="/logo.png" width={200} alt="Venture Camp" className="fade-in" />
                       <br></br>
-                    <br></br>
                     <p className='justify-center text-center'> </p>
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLScIGgqEJYA-3HypgIse1bjzKy01dMOnzoICdR3dj7MzgOAWcA/viewform'>
                     <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
                     </a>
-                    
-                    <FloatingNav navItems={[{name: 'Venture Camp', link: 'string', icon:<img src="/logo.png" alt="Venture Camp Icon" className="w-12 h-10" />}]}></FloatingNav>
+                    <br></br>
                 </div>
             </div>
         </div>

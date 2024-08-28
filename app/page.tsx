@@ -5,6 +5,7 @@ import { winners } from "@/data";
 import WinnerSlider from "@/components/ui/images";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Introduction from "@/components/Introduction";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
             <WinnerSlider key={winner.id} winner={winner} />
           ))}
         </div>
+        <Footer></Footer>
       </div>
     </main>
   );
