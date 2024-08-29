@@ -72,7 +72,7 @@ export const navItems = [
       id: 2,
       title: "Yum Bakery",
       des: "Mati Gutierrez, the entrepreneur behind Yum Bakery, an empanada bakery with cooking classes for kids. Mati impressed the judges with a well-crafted pitch that clearly articulated her vision. She also presented a solid financial plan, showcasing her understanding of cost management and profitability. Her attention to detail and strong business fundamentals earned her the top spot in the competition.",
-      img: ["/Bakery_1.png"],
+      img: ["/Bakery_2.png","/Bakery_1.png","/Bakery_3.png"],
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       
     },

@@ -3,11 +3,7 @@ import { Spotlight } from './ui/spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton  from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa';
-import Grid from './ui/Grid';
-import WinnersSection from './ui/images';
-import WinnersCarousel from './ui/images';
-import WinnerSlider from './ui/images'; // Adjust the path as needed
-import { winners } from '@/data'; 
+
 
 
 const Hero = () => {

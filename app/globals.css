@@ -103,3 +103,17 @@
 .scroll-offset {
   scroll-margin-top: 80px; 
 }
+
+/* Ensure to apply styles to the image container */
+.slider-container {
+  border-radius: 15px; /* Adjust radius as needed */
+  overflow: hidden;    /* Ensures content does not overflow rounded corners */
+}
+
+/* Apply rounded corners to the images */
+.slider-container img {
+  border-radius: 15px; /* Match the container radius for consistency */
+  object-fit: contain; /* Ensure the full image is visible */
+  width: 100%;
+  height: auto;
+}

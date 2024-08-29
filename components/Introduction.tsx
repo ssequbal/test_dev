@@ -3,9 +3,11 @@ import { TextGenerateEffect } from './ui/text-generate-effect'
 
 function Introduction() {
     return (
+        <div>
+        <TextGenerateEffect className='text-4xl'  words='Empowering the Next Generation of Entrepreneurs'></TextGenerateEffect>
         <div className="relative flex flex-col items-center text-center scroll-offset " id="about">
           <div className="w-full max-w-3xl mx-auto">
-          <TextGenerateEffect className='text-4xl'  words='Empowering the Next Generation of Entrepreneurs'></TextGenerateEffect>
+          
             <div className="relative w-full max-w-4xl mt-8">
             <div className="fade-in-image">
               <img 
@@ -26,6 +28,7 @@ function Introduction() {
           </div>
          
           </div>
+        </div>
         </div>
       );
 }

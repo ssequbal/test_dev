@@ -22,47 +22,47 @@ const WinnerSlider: React.FC<{ winner: Winner }> = ({ winner }) => {
   const slides = images.map((img, index) => ({ url: img }));
 
   return (
-    <div>
-      <div className="relative w-full max-w-[800px] mx-auto">
-        <h1 className='fade-in text-4xl mt-10  text-white z-10'>{winner.title}</h1>
-        <div className="slider-container rounded-md w-full  shadow-lg overflow-hidden border-radius-26px mt-4"> {/* Added margin-top */}
-        <ImageSlider
-          images={slides}
-          autoPlay={true}
-          width="100%"
-          height="300px"
-          navSize={50}
-          showNavs={true} // Show navigation arrows
-          showBullets={true} // Show navigation bullets
-          slideDuration={3}
-          style={{
-            overflow: 'hidden',
-            display: 'flex',
-            alignItems: 'center', // Center the images vertically
-            justifyContent: 'center', // Center the images horizontally
-          }}
-        />
+    <div className="relative w-full justify-center max-w-[800px] mx-auto">
+      <h1 className='fade-in text-3xl mt-10 text-purple z-10'>{winner.title}</h1>
+      
+      <div className="flex flex-col md:flex-row sm:justify-center items-center md:items-start mt-4">
+        <div className="slider-container rounded-md  md:w-1/2 md:pr-4 shadow-lg overflow-hidden">
+          <ImageSlider
+            images={slides}
+            autoPlay={true}
+            width="400px"
+            height="400px"
+            navSize={50}
+            showNavs={true} // Show navigation arrows
+            showBullets={true} // Show navigation bullets
+            slideDuration={3}
+            style={{
+              overflow: 'hidden',
+              borderRadius: '15px',
+            }}
+          />
         </div>
-      </div>
-      <div className={`text-container flex flex-col justify-center items-center mt-5`}>
-        <p className='text-center'>{winner.des}</p>
-        {winner.link && (
-        <a
-          className='py-5 text-center'
-          href={winner.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: 'white',
-            textDecoration: 'underline',
-            transition: 'color 0.3s',
-          }}
-          onMouseOver={(e) => (e.currentTarget.style.color = 'blue')}
-          onMouseOut={(e) => (e.currentTarget.style.color = 'white')}
-        >
-          Learn More
-        </a>
-      )}
+        
+        <div className="text-container flex flex-col justify-center items-center md:items-start mt-5 md:mt-0 md:w-1/2 md:pl-4">
+          <p className=' ml-10 text-1xl lg:text-left'>{winner.des}</p>
+          {winner.link && (
+            <a
+              className='py-5 ml-10 text-center lg:text-left'
+              href={winner.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: 'white',
+                textDecoration: 'underline',
+                transition: 'color 0.3s',
+              }}
+              onMouseOver={(e) => (e.currentTarget.style.color = 'blue')}
+              onMouseOut={(e) => (e.currentTarget.style.color = 'white')}
+            >
+              Learn More
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
