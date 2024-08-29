@@ -9,6 +9,8 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { ShootingStars } from "@/components/ui/shootingstars";
+import { StarsBackground } from "@/components/ui/stars-background";
 
 export default function Home() {
   return (
@@ -16,6 +18,9 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Analytics></Analytics>
         <SpeedInsights></SpeedInsights>
+        
+        <StarsBackground starDensity = {0.0004} ></StarsBackground>
+        <ShootingStars maxSpeed={20}></ShootingStars>
         <Hero/>
         <Navbar></Navbar>
         <Introduction></Introduction>

@@ -3,6 +3,7 @@ import { Spotlight } from './ui/spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton  from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa';
+import { StarsBackground } from './ui/stars-background';
 
 
 
@@ -14,6 +15,7 @@ const Hero = () => {
             <Spotlight className='top-10 left-full h-[80vh] w-[50vw] z-10' fill='purple'/>
             <Spotlight className='top-20 left-full h-[80vh] w-[50vw] z-10' fill='white'/>
             <Spotlight className='top-30 left-80 h-[80vh] w-[50vw] z-10' fill='blue'/>
+            
 
             <Spotlight className='top-40 right-10 h-[70vh] w-[50vw] z-10' fill='white' />
             <Spotlight className='top-80 right-30 h-[90vh] w-[70vw] z-10' fill='purple' />
