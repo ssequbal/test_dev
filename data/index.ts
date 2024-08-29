@@ -64,7 +64,7 @@ export const navItems = [
     {
       id: 1,
       title: "Occasionally Cards",
-      des: "Amelia Leather and Faith Esau, the creative minds behind Occasionally Cards, a business focused on creating affordable and fun pop-up greeting cards, captured the judges' attention with their innovative product. The cards offer a delightful surprise at an accessible price point, making them a hit with potential customers. Amelia and Faith’s ability to combine creativity with affordability was a winning combination, securing them a well-deserved victory.",
+      des: "Amelia and Faith, the creative minds behind Occasionally Cards, a business focused on creating affordable and fun pop-up greeting cards, captured the judges' attention with their innovative product. The cards offer a delightful surprise at an accessible price point, making them a hit with potential customers. Amelia and Faith’s ability to combine creativity with affordability was a winning combination, securing them a well-deserved victory.",
       img: ["/Cards_1.jpg","/Cards_2.jpg"],
       link: "https://linktr.ee/Occasionally_Cards",
     },
