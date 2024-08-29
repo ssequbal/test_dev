@@ -32,9 +32,9 @@ const WinnerSlider: React.FC<{ winner: Winner }> = ({ winner }) => {
             autoPlay={true}
             width="400px"
             height="400px"
-            navSize={50}
+            navSize={0}
             showNavs={true} // Show navigation arrows
-            showBullets={true} // Show navigation bullets
+            showBullets={false} // Show navigation bullets
             slideDuration={3}
             style={{
               overflow: 'hidden',
