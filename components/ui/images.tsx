@@ -24,18 +24,24 @@ const WinnerSlider: React.FC<{ winner: Winner }> = ({ winner }) => {
   return (
     <div>
       <div className="relative w-full max-w-[800px] mx-auto">
-        <h1 className='fade-in text-4xl py-10 text-center text-white z-10'>{winner.title}</h1>
-        <div className="w-full h-auto rounded-lg shadow-lg"> {/* Added margin-top */}
-          <ImageSlider
-            images={slides}
-            autoPlay={true}
-            width="100%"
-            height="500px"
-            navSize={50}
-            showNavs={true} // Show navigation arrows
-            showBullets={true} // Show navigation bullets
-            slideDuration={3}
-          />
+        <h1 className='fade-in text-4xl mt-10  text-white z-10'>{winner.title}</h1>
+        <div className="slider-container rounded-md w-full  shadow-lg overflow-hidden border-radius-26px mt-4"> {/* Added margin-top */}
+        <ImageSlider
+          images={slides}
+          autoPlay={true}
+          width="100%"
+          height="300px"
+          navSize={50}
+          showNavs={true} // Show navigation arrows
+          showBullets={true} // Show navigation bullets
+          slideDuration={3}
+          style={{
+            overflow: 'hidden',
+            display: 'flex',
+            alignItems: 'center', // Center the images vertically
+            justifyContent: 'center', // Center the images horizontally
+          }}
+        />
         </div>
       </div>
       <div className={`text-container flex flex-col justify-center items-center mt-5`}>
