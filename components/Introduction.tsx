@@ -4,8 +4,8 @@ import { TextGenerateEffect } from './ui/text-generate-effect'
 function Introduction() {
     return (
         <div>
-        <TextGenerateEffect className='text-4xl'  words='Empowering the Next Generation of Entrepreneurs'></TextGenerateEffect>
-        <div className="relative flex flex-col items-center text-center scroll-offset " id="about">
+        <TextGenerateEffect className='text-4xl text-center'  words='Empowering the Next Generation of Entrepreneurs'></TextGenerateEffect>
+        <div className="relative flex flex-col items-start text-left scroll-offset " id="about">
           <div className="w-full max-w-3xl mx-auto">
           
             <div className="relative w-full max-w-4xl mt-8">
