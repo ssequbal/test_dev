@@ -19,7 +19,7 @@ const Footer = () => {
           Ready to Ignite Your Child&apos;s Entrepreneurial Spirit?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Join the waitlist and you'll be the first to know when we announce our 2025 camps
+          Join the waitlist and you&apos;ll be the first to know when we announce our 2025 camps
         </p>
         <a href="https://docs.google.com/forms/d/17EUTo3njCTmOy4qr_1nqgLtrrCzWmRS48QWxx3teTm8" target="_blank">
           <MagicButton
