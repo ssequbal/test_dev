@@ -26,10 +26,9 @@ const Hero = () => {
 
             </div>
             
-            <div className='flex justify-center relative  z-10'>
+            <div className='flex justify-center relative  z-10 fade-in'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                     <h2 className='uppercase tracking-widest text-xs text-xenter text-blue-100 max-w-80'>
-                         
                     </h2>
                     <br/>  
                     <br></br>
@@ -37,9 +36,10 @@ const Hero = () => {
                       <TextGenerateEffect className='text-center text-6xl' words='Welcome to Venture Camp'></TextGenerateEffect>
                       <br></br>
                       <img src="/logo.png" width={200} alt="Venture Camp" className="fade-in" />
+                      
                       <br></br>
                     <p className='justify-center text-center'> </p>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScIGgqEJYA-3HypgIse1bjzKy01dMOnzoICdR3dj7MzgOAWcA/viewform'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScIGgqEJYA-3HypgIse1bjzKy01dMOnzoICdR3dj7MzgOAWcA/viewform' target="_blank">
                     <MagicButton title='Register Now' position='right' icon={<FaLocationArrow/>}></MagicButton>
                     </a>
                     <br></br>

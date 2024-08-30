@@ -18,15 +18,14 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Analytics></Analytics>
         <SpeedInsights></SpeedInsights>
-        
-        <StarsBackground starDensity = {0.0004} ></StarsBackground>
-        <ShootingStars maxSpeed={20}></ShootingStars>
+        <StarsBackground starDensity = {0.0007} ></StarsBackground>
+        <ShootingStars maxDelay={50}></ShootingStars>
         <Hero/>
         <Navbar></Navbar>
         <Introduction></Introduction>
         <Testimonials></Testimonials>
         <div className='items-center fade-in scroll-offset ' id='winners'>
-        <TextGenerateEffect   className='text-4xl items-center text-center' words='Celebrating Winners & Awards'></TextGenerateEffect>
+        <TextGenerateEffect   className='text-4xl items-center text-center' words='Spotlight on Success: Our $1,000 Prize Champions'></TextGenerateEffect>
         
           {winners.map((winner) => (
             <WinnerSlider key={winner.id} winner={winner} />
